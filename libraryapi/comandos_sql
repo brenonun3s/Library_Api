@@ -1,0 +1,6 @@
+CREATE table usuario(
+    id uuid not null primary key,
+    login varchar (20) not null unique,
+    senha varchar (300) not null,
+    roles varchar[]
+);
